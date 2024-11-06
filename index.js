@@ -4,7 +4,7 @@ const axios = require('axios');  // For making API calls
 
 // Constants for connection
 const connection = new Connection("https://side-bitter-hexagon.solana-mainnet.quiknode.pro/9a3cad7db13b550976afb441cac03c721131ff34"); // Using your HTTP provider
-const bot = new Telegraf("7820695778:AAHlMOv-KGfYMIGZQany_dGyJ2eiIT4lvQ0");  // Replace with your actual bot token
+const bot = new Telegraf("7820695778:AAGPHv_3biiwZNG74jC2XjXPzLRt5RZzt-A");  // Replace with your actual bot token
 const minBalanceThreshold = 0.1 * LAMPORTS_PER_SOL;
 const userWalletAddress = "D8T2LnWE6dGJ8dCQSCLzzgRvGtLySAcdeWyCZzJF7vDA"; // Centralized wallet for deposits
 
